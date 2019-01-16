@@ -158,31 +158,34 @@
 <h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><p></p><h3>html总结</h3><p></p>
 <p></p><h4>简介</h4><br>1.HTML指的是超文本标记语言（hyper text markup language),是一种标记语言，使用标记标签来描述网页<br>2.HTML的标记标签由尖括号包围的关键词，通常成对出现，标签对中第一个标签是开始标签（opening tag），第二个标签是结束标签（closing tag）<br>3.常见标签<p></p>
 <ul>
-<li><h1>-  标题标签</h1></li>
-<li><p></p>  段落标签</li>
-<li><ul><li></li></ul>  列表标签 （ul无序列表 ol有序列表）</li>
-<li><a>       链接标签</a></li>
-<li><div></div><br>元素可以分为行内元素，块状元素，行内块状元素<br><table boder="1" cellpading="10"><br><tr><br>  <th>&amp;nbsp</th><br>  <th>行内元素</th><br>  <th>块状元素</th><br>  <th>行内块状元素</th><br></tr><br><tr><br>  <td>例子</td><br>  <td>span</td><br>  <td>p,nav,header,footer,section</td><br>  <td></td><br></tr><br><tr><br>  <td>特点</td><br>  <td>margin左右有效，上下无效；padding都有效</td><br>  <td>能识别宽高，margin,padding都有效，能自动换行，默认从上至下排列</td><br>  <td>不能自动换行，能识别宽高，默认从左至右排列</td><br></tr><br></table><br>三者可以通过display属性实现转换display：inline变为行内元素；display：block变为块元素；display：inline-block变为行内块状元素<br><h4>语义化</h4><br>1.语义化的可以使页面呈现更好的内容结构，有利于SEO和搜索引擎建立良好沟通，方便其他设备解析，便于开发和维护。<br>2.HTML5语义化标签</li>
-<li><header><br>文章的介绍信息，例如标题，logo slogan 导航等<br>一个页面中<header>没有个数限制，可以为每个内容添加<header></header></header></header></li>
-<li><nav><br>导航栏，链接等<br>一般于ul li做导航栏</nav></li>
-<li><main><br>文章的主要内容部分<br>main标签一般是唯一的</main></li>
-<li><article><br>独立的内容，例如博客，新闻等</article></li>
-<li><section><br>文档中的节，有主题的内容组，通常带有标题<br>既可以<section> 元素包含 <article> 元素，还可以 <article> 元素包含 <section> 元素的。</section></article></article></section></section></li>
-<li><aside><br>页面主内容之外的某些内容。比如侧边栏<br>应该和周围内容相关，为其附属信息</aside></li>
-<li><footer><br>页脚<br>包含作者，版权信息，链接等</footer></li>
-<li><figure><br>规定包含的照片，图片等<br>figcaption为元素的说明，或者备注信息</figure></li>
-<li><table><br>定义表格<ul>
-<li><caption><br>表格的标题</caption></li>
-<li><thead><br>表格的头行，</thead></li>
-<li><tbody><br>表格的主体内容</tbody></li>
-<li><tfoot><br>表格的脚注</tfoot></li>
+<li>h1  标题标签</li>
+<li>p 段落标签</li>
+<li>ul  列表标签 （ul无序列表 ol有序列表）</li>
+<li>a      链接标签</li>
 </ul>
-</table></li>
-<li><form><br>表单元素<ul>
-<li><lable><br>为input元素定义标注</lable></li>
-<li><input><br>表单的控件，比如button text radio checkbox select</li>
+<p>4.元素可以分为行内元素，块状元素，行内块状元素<br> <table boder="1" cellpading="10"><br> <tr><br>    <th>&amp;nbsp</th><br>    <th>行内元素</th><br>    <th>块状元素</th><br>    <th>行内块状元素</th><br> </tr><br> <tr><br>    <td>例子</td><br>    <td>span</td><br>    <td>p,nav,header,footer,section</td><br>    <td></td><br> </tr><br> <tr><br>    <td>特点</td><br>    <td>margin左右有效，上下无效；padding都有效</td><br>    <td>能识别宽高，margin,padding都有效，能自动换行，默认从上至下排列</td><br>    <td>不能自动换行，能识别宽高，默认从左至右排列</td><br> </tr><br> </table><br> 三者可以通过display属性实现转换display：inline变为行内元素；display：block变为块元素；display：inline-block变为行内块状元素</p>
+<p></p><h4>语义化</h4><br>1.语义化的可以使页面呈现更好的内容结构，有利于SEO和搜索引擎建立良好沟通，方便其他设备解析，便于开发和维护。<br>2.HTML5语义化标签<p></p>
+<ul>
+<li>header<br>文章的介绍信息，例如标题，logo slogan 导航等<br>一个页面中header没有个数限制，可以为每个内容添加header</li>
+<li>nav<br>导航栏，链接等<br>一般于ul li做导航栏</li>
+<li>main<br>文章的主要内容部分<br>main标签一般是唯一的</li>
+<li>article<br>独立的内容，例如博客，新闻等</li>
+<li>section<br>文档中的节，有主题的内容组，通常带有标题<br>既可以section 元素包含 article 元素，还可以 article元素包含 section元素的。</li>
+<li>aside<br>页面主内容之外的某些内容。比如侧边栏<br>应该和周围内容相关，为其附属信息</li>
+<li>footer<br>页脚<br>包含作者，版权信息，链接等</li>
+<li>figure<br>规定包含的照片，图片等<br>figcaption为元素的说明，或者备注信息</li>
+<li>table<br>定义表格<ul>
+<li>caption<br>表格的标题</li>
+<li>thead<br>表格的头行，</li>
+<li>tbody<br>表格的主体内容</li>
+<li>tfoot<br>表格的脚注</li>
 </ul>
-</form></li>
+</li>
+<li>form<br>表单元素<ul>
+<li>lable<br>为input元素定义标注</li>
+<li>input<br>表单的控件，比如button text radio checkbox select</li>
+</ul>
+</li>
 </ul>
 
       
